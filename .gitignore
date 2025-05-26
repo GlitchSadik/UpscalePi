@@ -1,3 +1,12 @@
-.env
-UpscalePi/docs/
 UpscalePi/chunks.pkl
+# OS / R / Python junk
+.DS_Store
+.Rhistory
+.Rproj.user
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.env
