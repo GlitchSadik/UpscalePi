@@ -29,3 +29,22 @@ PINECONE_INDEX_NAME=your_pinecone_index
 cd UpscalePi
 python main.py
 ```
+### Issue: No module named 'pinecone'
+
+![Screenshot 2025-05-27 at 3 36 08 AM](https://github.com/user-attachments/assets/e667f9e1-fade-4ab6-9e0b-e4ebf8682b03)
+
+### Click on the python environment on bottom right corner
+
+![Screenshot 2025-05-27 at 3 38 15 AM](https://github.com/user-attachments/assets/3c7a8a8b-47bb-474c-a5e8-73687a98b7b2)
+
+### Click on create Virtual Environment
+
+![Screenshot 2025-05-27 at 3 39 08 AM](https://github.com/user-attachments/assets/a169edff-fee5-4995-92d0-8308233bb106)
+
+### Click on Venv 
+
+![Screenshot 2025-05-27 at 3 40 55 AM](https://github.com/user-attachments/assets/2e028381-44bc-41a8-8d86-281693eaed48)
+
+### Check the option and press OK!
+
+![Screenshot 2025-05-27 at 3 43 29 AM](https://github.com/user-attachments/assets/8428fa8a-3cd0-4cc2-a589-6837e47ce878)
