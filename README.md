@@ -7,7 +7,7 @@ UpscalePi is a cutting-edge, privacy-first document Q&A assistant designed to un
 By default, the project scripts are set up to pull data from the [Twilio API](https://github.com/twilio/twilio-oai), but you’re free to customize this. Just tweak the load_docs.py script to load any documents or data sources you want download and work on as your knowledge base.
 
 2. Semantic Embeddings & Fast Storage
-When you ask a question, the bot converts it to an embedding, searches for the closest matches, and combines your query with this rich context. It then leverages the local Ollama API running LLaMA 2 to generate clear, accurate answers tailored to your data.
+Loaded documents are chunked into meaningful segments and transformed into semantic vector embeddings. These vectors are then stored in a vector database for ultra-fast, context-aware search. The project is designed with a modular architecture—by simply modifying the embed_docs.py file, you can switch the vector database backend from Pinecone to alternatives like FAISS, enabling flexible deployment based on your needs and infrastructure
 
 3. Intelligent Query & Response
 User questions are converted into embeddings, matched with the closest document chunks, and combined to form an enriched prompt. This prompt is fed into the local LLaMA 2 model via Ollama to generate precise, context-aware answers.
